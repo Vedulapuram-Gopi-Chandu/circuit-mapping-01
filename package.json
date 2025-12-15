@@ -10,7 +10,6 @@
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.126",
     "@types/react": "^19.2.7",
-    "@types/react-dom": "^19.2.3",
     "dagre": "^0.8.5",
     "html-to-image": "^1.11.13",
     "jspdf": "^3.0.4",
@@ -44,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/dagre": "^0.7.53",
+    "@types/react-dom": "^19.2.3"
   }
 }

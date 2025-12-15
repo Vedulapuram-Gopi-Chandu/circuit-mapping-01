@@ -16,3 +16,17 @@ export interface RecordItem {
   linkedRecords: LinkedRecord[];
   linkedDocumentVersions: LinkedDocumentVersion[];
 }
+
+export interface DocumentVersion {
+  versionId: number;
+  name: string;
+  createdAt: string;
+}
+
+export interface DocumentItem {
+  id: number;
+  key: string;
+  title: string;
+  type: "document";
+  versions: DocumentVersion[];
+}
